@@ -1,0 +1,6 @@
++ fence 55 550
+. grass 56 280
+# concrete 26 1040
+T tree 3 600
+
+TOTAL COST: 2470

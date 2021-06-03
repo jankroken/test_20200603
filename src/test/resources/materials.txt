@@ -1,0 +1,4 @@
++ fence     10
+. grass      5
+# concrete  40
+T tree     200

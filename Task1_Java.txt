@@ -1,0 +1,26 @@
+
+Java tasks. Do as many as you have time for
+
+open the project in an IDE, and:
+
+1. Change Main so that it can be run from the command line.
+   It should be possible to run it with the following arguments:
+   - the file name/location for the file with materials and prices
+   - the file name/location for the file with the layout to be loaded
+   - the file name/location for the output materials and cost report
+
+2. Update the application so that it:
+   - loads the layout (from the input layout file)
+   - loads the data from the materials file
+   - calculates how much of each material is needed and what it will cost
+   - writes a cost report in the same format as "sample-expected-output.txt" file
+
+   Make sure the layout is loaded as an actual model, since it will be used to do more than
+   just material calculation later
+
+3. Write unit tests to verify that the calculation is correct (use the sample output for this)
+
+4. Extend the application, so that there's a new file containing a set of modifications to the
+   layout (so that when you load the model, you can specify that one grass element should
+   be replaced with e.g. concrete or a tree. The application should apply all the modifications
+   to the layout, and then write the new layout to a separate file, and a matching cost report.
